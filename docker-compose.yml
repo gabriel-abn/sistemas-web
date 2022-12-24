@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  nginx:
+    image: nginx:stable
+    volumes:
+      - ./html:/usr/share/nginx/html
+    ports:
+      - 8080:80

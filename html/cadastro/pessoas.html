@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>Dados do cadastro</h1>
+
+  <form method="post" action="">
+
+    <div>
+      <label for="nomeDaPessoa">Nome: </label>
+      <input type="text" name="nome" id="nomeDaPessoa" placeholder="Digite seu nome">
+    </div>
+
+    <div>
+      <label for="usuario">Usuário: </label>
+      <input type="text" name="usuario" id="usuario">
+    </div>
+
+    <div>
+      <label for="senha">Senha: </label>
+      <input type="password" name="senha" id="senha">
+    </div>
+
+    <div>
+      <label for="">Gênero</label>
+
+      <div>
+        <input type="radio" name="genero" id="feminino">
+        <label for="feminino">Feminino</label>
+      </div>
+
+      <div>
+        <input type="radio" name="genero" id="masculino">
+        <label for="masculino">Masculino</label>
+      </div>
+
+      <div>
+        <input type="radio" name="genero" id="naobinario">
+        <label for="naobinario">Não binário</label>
+      </div>
+
+      <div>
+        <input type="radio" name="genero" id="semresposta">
+        <label for="semresposta">Prefiro não responder</label>
+      </div>
+
+    </div>
+
+    <div>
+      <label for="">Áreas de interesse</label>
+
+      <div>
+        <input type="checkbox" name="web" id="web">
+        <label for="web">Sistemas Web 1</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="bd" id="bd">
+        <label for="bd">Banco de Dados 1</label>
+      </div>
+
+      <div>
+        <input type="checkbox" name="software" id="software">
+        <label for="software">Engenharia de Software</label>
+      </div>
+
+    </div>
+
+    <div>
+      <label for="uf">Estado</label>
+      <select name="uf" id="uf">
+        <option value="0" selected disabled>----</option>
+        <option value="1">Minas Gerais</option>
+        <option value="2">São Paulo</option>
+        <option value="3">Rio de Janeiro</option>
+        <option value="4">Espírito Santo</option>
+      </select>
+    </div>
+
+    <input type="submit" value="Cadastrar Input">
+    <button type="submit">Cadastrar Submit</button>
+    <button type="reset">Limpar</button>
+
+  </form>
+
+  <a href="../index.html">Voltar</a>
+
+</body>
+
+</html>
